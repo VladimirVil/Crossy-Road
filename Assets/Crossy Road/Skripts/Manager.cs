@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class Manager : MonoBehaviour {
 
-    //Git test
+    //Git test2
     public Text coin = null;
     public Text distance = null;
     public Camera camera = null;
