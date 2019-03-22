@@ -771,10 +771,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c933b286e0b4324aaeb4c6f4571d573, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.25
+  speed: 0.5
   autoMove: 1
   player: {fileID: 636104498}
-  offset: {x: 3.5, y: 6, z: -3}
+  offset: {x: -0.5, y: 4, z: -0.8}
 --- !u!1 &535629335
 GameObject:
   m_ObjectHideFlags: 0
