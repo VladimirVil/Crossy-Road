@@ -73,7 +73,7 @@ public class Manager : MonoBehaviour {
 
     public void GameOver ()
     {
-        //camera.GetComponent<CameraShake>().Shake();
+        camera.GetComponent<CameraShake>().Shake();
         camera.GetComponent<CameraFollow>().enabled = false;
 
         GuiGameOver();
