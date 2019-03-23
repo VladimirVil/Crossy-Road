@@ -771,10 +771,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c933b286e0b4324aaeb4c6f4571d573, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.5
-  autoMove: 1
   player: {fileID: 636104498}
-  offset: {x: -0.5, y: 4, z: -0.8}
 --- !u!1 &535629335
 GameObject:
   m_ObjectHideFlags: 0
@@ -1713,9 +1710,9 @@ RectTransform:
   m_Father: {fileID: 221171292}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 128, y: -65}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -100, y: 219}
   m_SizeDelta: {x: 238, y: 105}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1303534864
@@ -1758,7 +1755,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.87655747, g: 0.87655747, b: 0.9245283, a: 1}
+  m_Color: {r: 0.8543856, g: 0.8773585, b: 0.12829298, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1837,7 +1834,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.8039216, a: 1}
+  m_Color: {r: 0.23713379, g: 0.7075472, b: 0.1702118, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
