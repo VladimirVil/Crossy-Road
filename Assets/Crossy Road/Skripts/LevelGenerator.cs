@@ -14,7 +14,7 @@ public class LevelGenerator : MonoBehaviour {
     private float lastPos = 0;
     private float lastScale = 0;
     
-    //gonna create the element for us 
+    //gonna create the element  
     public void RandomGenerator()
     {
         //gonna take all the pieces from the platform( prefabs) and create level object each time based on that 

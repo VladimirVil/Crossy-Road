@@ -137,7 +137,7 @@ public class PlayerController : MonoBehaviour {
     public void GotHit()
     {
         isDead = true;
-        //enabling emisiion state for the particle
+        //enabling emision state for the particle
         ParticleSystem.EmissionModule em = particle.emission;
         em.enabled = true;
 

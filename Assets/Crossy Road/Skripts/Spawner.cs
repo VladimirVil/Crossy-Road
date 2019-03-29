@@ -63,7 +63,6 @@ public class Spawner : MonoBehaviour {
 
     void SpawnItem()
     {
-        Debug.Log("Spawn Item");
         //gonna take a game object and set its postion/direction
         GameObject obj = Instantiate(item) as GameObject;
         obj.transform.position = GetSpawnPosition();

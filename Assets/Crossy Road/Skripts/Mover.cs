@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-    //OnTriggerENter and OnTriggerExit need to be debuged 
 public class Mover : MonoBehaviour {
 
     public float speed = 1.0f;
@@ -34,7 +33,6 @@ public class Mover : MonoBehaviour {
         }
         if (!renderer.isVisible && isVisible)
         {
-            Debug.Log("Object not seen anymore by the camera, remove");
             //will destroy the object once it is not on the screen
             Destroy(this.gameObject);
         }

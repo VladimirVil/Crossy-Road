@@ -10,7 +10,7 @@ public class Coin : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            Debug.Log("PLayer picked up the coin");
+            Debug.Log("Player picked up the coin");
 
             Manager.instance.UpdateCoinCount(coinValue);
 
