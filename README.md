@@ -14,6 +14,9 @@ implemented separately and not as player's child
 direction with every step .
 
 Known issues:
+
 Bug 001: No collisions with trees
+
 Severity - low
+
 Priority - middle 
